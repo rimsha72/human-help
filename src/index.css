@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f7f8f9;
+}
+
+.custom-quill-container {
+  height: 200px; /* Adjust the height as needed */
+}
