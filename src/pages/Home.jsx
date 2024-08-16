@@ -76,69 +76,69 @@ export default function Home() {
                     <th scope="col" className="px-6 py-3">Time</th>
                     <th scope="col" className="px-6 py-3">Address</th>
                     <th scope="col" className="px-6 py-3">Organizer name</th>
-                    <th scope="col" className="px-6 py-3">Organizer email</th>
                     <th scope="col" className="px-6 py-3">No of participants</th>
                   </tr>
                 </thead>
                 <tbody>
                   {/* Shoes and Clothing Data */}
                   <tr className="bg-white border-b hover:bg-orange-150/30">
-                    <td className="px-6 py-4 h-16 w-48 rounded-md"><img className="h-16 w-24 rounded-md object-cover" src={event}/></td>
-                    <td className="px-6 py-4">Find a group for animal cleaning...</td>
-                    <td className="px-6 py-4">1st May</td>
-                    <td className="px-6 py-4">Human</td>
-                    <td className="px-6 py-4">New</td>
-                    <td className="px-6 py-4">$120.00</td>
-                    <td className="px-6 py-4">150</td>
-                    <td className="px-6 py-4">4.5/5</td>
+                    <td className="px-3 py-4 h-16 w-48 rounded-md"><img className="h-16 w-24 rounded-md object-cover" src={event}/></td>
+                    <td className="px-3 py-4">Find a group for animal cleaning...</td>
+                    <td className="px-3 py-4">1st May</td>
+                    <td className="px-3 py-4">Human</td>
+                    <td className="px-3 py-4">Wednesday</td>
+                    <td className="px-3 py-4">4:00PM - 9:00PM</td>
+                    <td className="px-3 py-4">Gala Convention Center 36 Guild Street London, UK </td>
+                    <td className="px-3 py-4">Katherine Sayem</td>
+                    <td className="px-3 py-4">19</td>
                    
                   </tr>
                   <tr className="bg-white border-b hover:bg-orange-150/30">
-                    <td className="px-6 py-4 h-16 w-48 rounded-md"><img className="h-16 w-24 rounded-md object-cover" src={event2} alt="" /></td>
-                    <td className="px-6 py-4">Student seeks help with moving   </td>
-                    <td className="px-6 py-4">10th May</td>
-                    <td className="px-6 py-4">Animal</td>
-                    <td className="px-6 py-4">ARS160</td>
-                    <td className="px-6 py-4">Used</td>
-                    <td className="px-6 py-4">$110.00</td>
-                    <td className="px-6 py-4">70</td>
-                    <td className="px-6 py-4">4.3/5</td>
+                    <td className="px-3 py-4 h-16 w-48 rounded-md"><img className="h-16 w-24 rounded-md object-cover" src={event2} alt="" /></td>
+                    <td className="px-3 py-4">Student seeks help with moving   </td>
+                    <td className="px-3 py-4">10th May</td>
+                    <td className="px-3 py-4">Animal</td>
+                    <td className="px-3 py-4">Monday</td>
+                    <td className="px-3 py-4">1:00PM - 2:00PM</td>
+                    <td className="px-3 py-4">Gala Convention Center 36 Guild Street London, UK </td>
+                    <td className="px-3 py-4">Katherine Sayem</td>
+                    <td className="px-3 py-4">4</td>
                     
                   </tr>
                   <tr className="bg-white border-b hover:bg-orange-150/30">
-                    <td className="px-6 py-4 h-16 w-48 rounded-md"><img className="h-16 w-24 rounded-md object-cover" src={event3} alt="" /></td>
-                    <td className="px-6 py-4">Lorem ipsum dolor amet</td>
-                    <td className="px-6 py-4">15 June</td>
-                    <td className="px-6 py-4">Nature </td>
-                    <td className="px-6 py-4">CAS652</td>
-                    <td className="px-6 py-4">Used</td>
-                    <td className="px-6 py-4">$85.00</td>
-                    <td className="px-6 py-4">120</td>
-                    <td className="px-6 py-4">4.7/5</td>
+                    <td className="px-3 py-4 h-16 w-48 rounded-md"><img className="h-16 w-24 rounded-md object-cover" src={event3} alt="" /></td>
+                    <td className="px-3 py-4">Lorem ipsum dolor amet</td>
+                    <td className="px-3 py-4">15 June</td>
+                    <td className="px-3 py-4">Nature </td>
+                    <td className="px-3 py-4">Friday</td>
+                    <td className="px-3 py-4">6:00PM - 7:00PM</td>
+                    <td className="px-3 py-4">Gala Convention Center 36 Guild Street London, UK </td>
+                    <td className="px-3 py-4">Katherine Sayem</td>
+                    <td className="px-3 py-4">31</td>
                     
                   </tr>
                   <tr className="bg-white border-b hover:bg-orange-150/30">
-                    <td className="px-6 py-4 h-16 w-48 rounded-md"><img className="h-16 w-24 rounded-md object-cover" src={event4} alt="" /></td>
-                    <td className="px-6 py-4">Lorem ipsum dolor amet</td>
-                    <td className="px-6 py-4">25 August</td>
-                    <td className="px-6 py-4">Human</td>
-                    <td className="px-6 py-4">PS391</td>
-                    <td className="px-6 py-4">New</td>
-                    <td className="px-6 py-4">$75.00</td>
-                    <td className="px-6 py-4">90</td>
-                    <td className="px-6 py-4">4.1/5</td>
+                    <td className="px-3 py-4 h-16 w-48 rounded-md"><img className="h-16 w-24 rounded-md object-cover" src={event4} alt="" /></td>
+                    <td className="px-3 py-4">Lorem ipsum dolor amet</td>
+                    <td className="px-3 py-4">25 August</td>
+                    <td className="px-3 py-4">Human</td>
+                    <td className="px-3 py-4">Monday</td>
+                    <td className="px-3 py-4">8:00PM - 9:00PM</td>
+                    <td className="px-3 py-4">Gala Convention Center 36 Guild Street London, UK </td>
+                    <td className="px-3 py-4">Katherine Sayem</td>
+                    <td className="px-3 py-4">25</td>
                    
                   </tr>
                   <tr className="bg-white border-b hover:bg-orange-150/30">
-                    <td className="px-6 py-4 h-16 w-48 rounded-md"><img className="h-16 w-24 rounded-md object-cover" src={event5} alt="" /></td>
-                    <td className="px-6 py-4">Lorem ipsum dolor amet</td>
-                    <td className="px-6 py-4">13 April</td>
-                    <td className="px-6 py-4">Clothing</td>
-                    <td className="px-6 py-4">LDJ731</td>
-                    <td className="px-6 py-4">Used</td>
-                    <td className="px-6 py-4">$89.99</td>
-                    <td className="px-6 py-4">40</td>
-                    <td className="px-6 py-4">4.0/5</td>
+                    <td className="px-3 py-4 h-16 w-48 rounded-md"><img className="h-16 w-24 rounded-md object-cover" src={event5} alt="" /></td>
+                    <td className="px-3 py-4">Lorem ipsum dolor amet</td>
+                    <td className="px-3 py-4">13 April</td>
+                    <td className="px-3 py-4">Clothing</td>
+                    <td className="px-3 py-4">Thursday</td>
+                    <td className="px-3 py-4">2:00PM - 3:00PM</td>
+                    <td className="px-3 py-4">Gala Convention Center 36 Guild Street London, UK </td>
+                    <td className="px-3 py-4">Katherine Sayem</td>
+                    <td className="px-3 py-4">10</td>
                   
                   </tr>
                  

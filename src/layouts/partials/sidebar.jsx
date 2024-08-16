@@ -50,7 +50,7 @@ export default function Sidebar() {
             </li>
             <li onClick={e => setShowMenue(pre => false)}>
               <NavLink
-                to='/sellers'
+                to='/events'
                 className={({ isActive, isPending }) => {
                   setDropDown(isActive)
                   return (
@@ -61,30 +61,14 @@ export default function Sidebar() {
                 }}
               >
                 <FaUsers />
-                <span className="flex-1 ml-3 whitespace-nowrap">Manage Sellers</span>
+                <span className="flex-1 ml-3 whitespace-nowrap">Manage Events</span>
               </NavLink>
 
             </li>
+           
             <li onClick={e => setShowMenue(pre => false)}>
               <NavLink
-                to='/products'
-                className={({ isActive, isPending }) => {
-                  setDropDown(isActive)
-                  return (
-                    isActive ? "flex items-center py-3 px-5 rounded-lg bg-white drop-shadow text-black font-semibold"
-                      :
-                      "flex items-center py-3 px-5 text-white rounded-lg hover:bg-white/20 hover:text-white hover:font-medium"
-                  )
-                }}
-              >
-                <BsCart2 />
-                <span className="flex-1 ml-3 whitespace-nowrap">Manage Products</span>
-              </NavLink>
-
-            </li>
-            <li onClick={e => setShowMenue(pre => false)}>
-              <NavLink
-                to='/orders'
+                to='/users'
                 className={({ isActive, isPending }) => {
                   setDropDown(isActive)
                   return (
@@ -95,7 +79,24 @@ export default function Sidebar() {
                 }}
               >
                 <IoBagCheckOutline />
-                <span className="flex-1 ml-3 whitespace-nowrap">Manage Orders</span>
+                <span className="flex-1 ml-3 whitespace-nowrap">Manage Users</span>
+              </NavLink>
+
+            </li>
+            <li onClick={e => setShowMenue(pre => false)}>
+              <NavLink
+                to='/faq'
+                className={({ isActive, isPending }) => {
+                  setDropDown(isActive)
+                  return (
+                    isActive ? "flex items-center py-3 px-5 rounded-lg bg-white drop-shadow text-black font-semibold"
+                      :
+                      "flex items-center py-3 px-5 text-white rounded-lg hover:bg-white/20 drop-shadow hover:text-white hover:font-medium"
+                  )
+                }}
+              >
+                <IoBagCheckOutline />
+                <span className="flex-1 ml-3 whitespace-nowrap">Manage FAQ</span>
               </NavLink>
 
             </li>

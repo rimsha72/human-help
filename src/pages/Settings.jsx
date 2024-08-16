@@ -59,20 +59,7 @@ export default function Settings() {
               modules={modules}
               className="custom-quill-container"
             />
-            <div className="flex gap-4 mt-16  justify-end">
-              <button 
-                className="px-4 py-2 bg-blue-500 text-white rounded-md"
-                onClick={() => handleSave('Privacy Policy')}
-              >
-                Save
-              </button>
-              <button 
-                className="px-4 py-2 bg-green-500 text-white rounded-md"
-                onClick={() => handleSave('Privacy Policy')}
-              >
-                Publish
-              </button>
-            </div>
+            
           </div>
           
           <div>
@@ -86,44 +73,15 @@ export default function Settings() {
             />
             <div className="flex gap-4 mt-16 justify-end">
               <button 
-                className="px-4 py-2 bg-blue-500 text-white rounded-md"
+                className="px-4 py-2 bg-blue-150 text-white font-medium rounded-md"
                 onClick={() => handleSave('Terms and Conditions')}
               >
                 Save
               </button>
-              <button 
-                className="px-4 py-2 bg-green-500 text-white rounded-md"
-                onClick={() => handleSave('Terms and Conditions')}
-              >
-                Publish
-              </button>
+            
             </div>
           </div>
-          
-          <div>
-            <h1 className="text-xl font-bold pb-4">App Security</h1>
-            <ReactQuill
-              theme="snow"
-              value={termsConditions}
-              onChange={setTermsConditions}
-              modules={modules}
-              className="custom-quill-container"
-            />
-            <div className="flex gap-4 mt-16 justify-end">
-              <button 
-                className="px-4 py-2 bg-blue-500 text-white rounded-md"
-                onClick={() => handleSave('Terms and Conditions')}
-              >
-                Save
-              </button>
-              <button 
-                className="px-4 py-2 bg-green-500 text-white rounded-md"
-                onClick={() => handleSave('Terms and Conditions')}
-              >
-                Publish
-              </button>
-            </div>
-          </div>
+        
           
         </div>
       </div>

@@ -71,8 +71,7 @@ export default function Feedbacks() {
               <table className="w-full text-sm text-left text-gray-500">
                 <thead className="text-black text-sm border-b-2 bg-gray-200">
                   <tr>
-                    <th scope="col" className="px-6 py-3">Seller Name</th>
-                    <th scope="col" className="px-6 py-3">Account ID</th>
+                    <th scope="col" className="px-6 py-3"> User</th>
                     <th scope="col" className="px-6 py-3">Rating</th>
                     <th scope="col" className="px-6 py-3">Notes</th>
                     <th scope="col" className="px-6 py-3">Reply</th>
@@ -83,7 +82,6 @@ export default function Feedbacks() {
                   {feedbacks.map((feedback) => (
                     <tr key={feedback.id} className="bg-white border-b hover:bg-orange-150/30">
                       <td className="px-6 py-4 font-medium text-gray-900">{feedback.seller}</td>
-                      <td className="px-6 py-4">{feedback.accountId}</td>
                       <td className="px-6 py-4">
                         {renderStars(feedback.rating)}
                       </td>

@@ -9,7 +9,7 @@ import Sellers from "./pages/Sellers";
 import Products from "./pages/Products";
 import Orders from "./pages/Orders";
 import Settings from "./pages/Settings";
-import SellerProducts from "./pages/SellerProducts";
+import FAQ from "./pages/FAQ";
 
 function App() {
   const [authenticated, setAuthenticated] = useState(false);
@@ -20,13 +20,12 @@ function App() {
         <Routes>
           <Route path="/" element={<RootLayout />}>
             <Route index element={<Home />} />
-            <Route path="sellers" element={<Sellers />} />
-            <Route path="sellers/:name" element={<SellerProducts />} />
-            <Route path="products" element={<Products />} />
-            <Route path="orders" element={<Orders />} />
+            <Route path="events" element={<Sellers />} />
+            <Route path="users" element={<Orders />} />
             <Route path="profile" element={<Profile />} />
             <Route path="feedbacks" element={<Feedbacks />} />
             <Route path="settings" element={<Settings />} />
+            <Route path="faq" element={<FAQ />} />
           </Route>
         </Routes>
       {/* ) : (
