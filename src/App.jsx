@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      {/* {authenticated ? ( */}
+      {authenticated ? (
         <Routes>
           <Route path="/" element={<RootLayout />}>
             <Route index element={<Home />} />
@@ -28,9 +28,9 @@ function App() {
             <Route path="faq" element={<FAQ />} />
           </Route>
         </Routes>
-      {/* ) : (
+     ) : (
         <Navigate to="/login" replace />
-      )} */}
+      )} 
       <Routes>
         <Route
           path="/login"
